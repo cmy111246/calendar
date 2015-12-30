@@ -1,0 +1,66 @@
+﻿@charset "utf-8";
+body,html,div,p,span,i,em{padding: 0;margin:0;font-size: 12px;}
+/*Date of departure start*/
+.calendar{border-collapse:collapse;border:1px solid #E7E7E7;width:500px;}
+.calendar th{width: 14.28%;}
+.calendar-title{height:25px;background:#f3f3f3;}
+.calendar-title-current-month{color:#666;font-weight:700;}
+.calendar-weeks{height:24px;background:#fafff1;}
+.calendar-week-days{height:45px;}
+.calendar td{text-align:center;border:1px solid #e8e8e8;height:26px;vertical-align:middle;cursor: pointer;}
+.calendar td div{font-family:Simsun;font-weight:400;height:41px;line-height:13px;overflow:hidden;text-align:right;width:auto;padding:2px 5px 0 0;}
+.calendar span.v-holiday{font-size:12px;font-weight:400;color:#999;float:left;padding-left:3px;}
+.calendar-today{color:red;}
+.calendar a{text-decoration:none;cursor:pointer;}
+.calendar_red{color:#c00;}
+.calendar_bg_ffffcc{background:#ffc;height:46px;}
+.calendar_padding_top_8{padding-top:8px;}
+.calendar_padding_top_5{padding-top:5px;}
+.calendar_color_333{color:#333;}
+.calendar-weeks td.calendar_color_ff6600{color:#f60;}
+.calendar_jieri{color:#4876FF;}
+.calendar-tag,.calendar div{color:Red;font-size:12px;}
+
+.calendar-weeks td{background:#D9F3B6;font-weight:normal;color:#000;}
+.calendar td div{color:#000}
+
+
+
+.calendar-left {height:293px;position:relative;float:left;width:78px;border:1px solid #E7E7E7;border-right:0;background:#f3f3f3;}
+.calendar-left p{text-align:center;color:#666;font-weight:bold;padding:133px 0;}
+.calendar-double-month .calendar-leftTop{padding:64px 0;}
+.calendar-double-month .calendar-leftBottom{padding:52px 0;}
+.calendar-leftBottom{display:none;}
+.subPrev{position:absolute;top:15px;left:30px;background:url(http://r.uzaicdn.com/content/product/calendarBtn1.jpg) no-repeat -14px -8px;height:8px;width:14px;}
+.subNext{position:absolute;bottom:15px;left:30px;background:url(http://r.uzaicdn.com/content/product/calendarBtn1.jpg) no-repeat 0px -8px;height:8px;width:14px;}
+.calendar-weeks{background:#d9f3b6;}
+.calendar-weeks th{font-weight:normal;}
+.calendar-weeks .calendar_color_36c{color:#36c;}
+.calendar-weeks .calendar_color_ff6600{color:#ff6600;}
+.calendar span.v-holiday{color:#39c;}
+.calendar th{text-align:center;}
+.subNextNo{background-position:0 0px;}
+.subPrevNo{background-position:-14px 0px;}
+.calendar td div.C_today{color:#f00;font-weight:bold;}
+.calendar td.calendar-today div{color:#f00;font-weight:bold;}
+.calendar_bg_f9fff3{background:#f9fff3;}
+
+.calendar_rest{color: #f00;position: relative;top:15px;font-style: normal;}
+.calendar_work{color: #333;position: relative;top:15px;font-weight: normal;font-style: normal;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
